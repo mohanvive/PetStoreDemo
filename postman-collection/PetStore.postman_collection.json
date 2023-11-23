@@ -1,0 +1,129 @@
+{
+	"info": {
+		"_postman_id": "e02240bd-8f04-4a68-9c5e-62d9af3a5c1c",
+		"name": "PetStore",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "697289"
+	},
+	"item": [
+		{
+			"name": "List Pets",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8290/pet/list/available",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8290",
+					"path": [
+						"pet",
+						"list",
+						"available"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List Pets - Direct Endpoint",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://petstore3.swagger.io/api/v3/pet/findByStatus?status=available",
+					"protocol": "https",
+					"host": [
+						"petstore3",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"api",
+						"v3",
+						"pet",
+						"findByStatus"
+					],
+					"query": [
+						{
+							"key": "status",
+							"value": "available"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List Pets - Mock",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "List Pets - Choreo",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "DataService-GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8290/services/PetStoreDataService/Pet/14001",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8290",
+					"path": [
+						"services",
+						"PetStoreDataService",
+						"Pet",
+						"14001"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DataService-Post",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/xml",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<_postpet>\n    <PetNumber>3</PetNumber>\n    <Name>Bravo</Name>\n    <Category>Dog</Category>\n    <Status>available</Status>\n</_postpet>"
+				},
+				"url": {
+					"raw": "http://localhost:8290/services/PetStoreDataService/Pet",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8290",
+					"path": [
+						"services",
+						"PetStoreDataService",
+						"Pet"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
