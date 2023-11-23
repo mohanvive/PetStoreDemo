@@ -1,0 +1,21 @@
+openapi: 3.0.1
+info:
+  title: PetStore
+  description: "API Definition of PetStoreAPI"
+  version: 1.0.0
+servers:
+- url: http://localhost:8290
+paths:
+  /pet/list/{status}:
+    get:
+      parameters:
+        - name: status
+          in: path
+          required: true
+          style: simple
+          explode: false
+          schema:
+            type: string
+      responses:
+        default:
+          description: Default response

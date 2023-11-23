@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:datamapper="http:///org/wso2/developerstudio/eclipse/gmf/datamapper" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_PGKSgIWNEe6U8f5HMnrv0g" type="DataMapper" name="PetStoreResponseMapping.datamapper_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_lSmfgIWNEe6U8f5HMnrv0g" type="2002" fontName=".AppleSystemUIFont">
+    <children xmi:type="notation:Shape" xmi:id="_zHyGoIWNEe6U8f5HMnrv0g" type="3002" fontName=".AppleSystemUIFont">
+      <children xmi:type="notation:DecorationNode" xmi:id="_zHytsIWNEe6U8f5HMnrv0g" type="5002"/>
+      <children xmi:type="notation:Shape" xmi:id="_zIB-QIWNEe6U8f5HMnrv0g" type="3003" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zIB-QoWNEe6U8f5HMnrv0g" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_zIGPsIWNEe6U8f5HMnrv0g" type="3020" fontName=".AppleSystemUIFont">
+          <element xmi:type="datamapper:InNode" href="PetStoreResponseMapping.datamapper#//@input/@treeNode.0/@node.0/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zIGPsYWNEe6U8f5HMnrv0g" x="-1" y="1"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_zIGPsoWNEe6U8f5HMnrv0g" type="3019" fontName=".AppleSystemUIFont">
+          <element xmi:type="datamapper:OutNode" href="PetStoreResponseMapping.datamapper#//@input/@treeNode.0/@node.0/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zIGPs4WNEe6U8f5HMnrv0g"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="PetStoreResponseMapping.datamapper#//@input/@treeNode.0/@node.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zIB-QYWNEe6U8f5HMnrv0g"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_zIB-Q4WNEe6U8f5HMnrv0g" type="3003" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zIB-RYWNEe6U8f5HMnrv0g" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_zI12kIWNEe6U8f5HMnrv0g" type="3003" fontName=".AppleSystemUIFont">
+          <children xmi:type="notation:DecorationNode" xmi:id="_zI12koWNEe6U8f5HMnrv0g" type="5001"/>
+          <children xmi:type="notation:Shape" xmi:id="_zI2doIWNEe6U8f5HMnrv0g" type="3020" fontName=".AppleSystemUIFont">
+            <element xmi:type="datamapper:InNode" href="PetStoreResponseMapping.datamapper#//@input/@treeNode.0/@node.1/@node.0/@inNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zI2doYWNEe6U8f5HMnrv0g" x="-1" y="1"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_zI2dooWNEe6U8f5HMnrv0g" type="3019" fontName=".AppleSystemUIFont">
+            <element xmi:type="datamapper:OutNode" href="PetStoreResponseMapping.datamapper#//@input/@treeNode.0/@node.1/@node.0/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zI2do4WNEe6U8f5HMnrv0g"/>
+          </children>
+          <element xmi:type="datamapper:TreeNode" href="PetStoreResponseMapping.datamapper#//@input/@treeNode.0/@node.1/@node.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zI12kYWNEe6U8f5HMnrv0g"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_zI12k4WNEe6U8f5HMnrv0g" type="3003" fontName=".AppleSystemUIFont">
+          <children xmi:type="notation:DecorationNode" xmi:id="_zI12lYWNEe6U8f5HMnrv0g" type="5001"/>
+          <children xmi:type="notation:Shape" xmi:id="_zI3rwIWNEe6U8f5HMnrv0g" type="3020" fontName=".AppleSystemUIFont">
+            <element xmi:type="datamapper:InNode" href="PetStoreResponseMapping.datamapper#//@input/@treeNode.0/@node.1/@node.1/@inNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zI3rwYWNEe6U8f5HMnrv0g" x="-1" y="1"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_zI3rwoWNEe6U8f5HMnrv0g" type="3019" fontName=".AppleSystemUIFont">
+            <element xmi:type="datamapper:OutNode" href="PetStoreResponseMapping.datamapper#//@input/@treeNode.0/@node.1/@node.1/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zI3rw4WNEe6U8f5HMnrv0g"/>
+          </children>
+          <element xmi:type="datamapper:TreeNode" href="PetStoreResponseMapping.datamapper#//@input/@treeNode.0/@node.1/@node.1"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zI12lIWNEe6U8f5HMnrv0g"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_zI12loWNEe6U8f5HMnrv0g" type="3020" fontName=".AppleSystemUIFont">
+          <element xmi:type="datamapper:InNode" href="PetStoreResponseMapping.datamapper#//@input/@treeNode.0/@node.1/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zI12l4WNEe6U8f5HMnrv0g" x="-1" y="-11"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_zI12mIWNEe6U8f5HMnrv0g" type="3019" fontName=".AppleSystemUIFont">
+          <element xmi:type="datamapper:OutNode" href="PetStoreResponseMapping.datamapper#//@input/@treeNode.0/@node.1/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zI12mYWNEe6U8f5HMnrv0g"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="PetStoreResponseMapping.datamapper#//@input/@treeNode.0/@node.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zIB-RIWNEe6U8f5HMnrv0g"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_zIB-RoWNEe6U8f5HMnrv0g" type="3003" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zIB-SIWNEe6U8f5HMnrv0g" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_zI5g8IWNEe6U8f5HMnrv0g" type="3020" fontName=".AppleSystemUIFont">
+          <element xmi:type="datamapper:InNode" href="PetStoreResponseMapping.datamapper#//@input/@treeNode.0/@node.2/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zI5g8YWNEe6U8f5HMnrv0g" x="-1" y="1"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_zI5g8oWNEe6U8f5HMnrv0g" type="3019" fontName=".AppleSystemUIFont">
+          <element xmi:type="datamapper:OutNode" href="PetStoreResponseMapping.datamapper#//@input/@treeNode.0/@node.2/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zI5g84WNEe6U8f5HMnrv0g"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="PetStoreResponseMapping.datamapper#//@input/@treeNode.0/@node.2"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zIB-R4WNEe6U8f5HMnrv0g"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_zIB-SYWNEe6U8f5HMnrv0g" type="3003" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zIB-S4WNEe6U8f5HMnrv0g" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_zI6vEIWNEe6U8f5HMnrv0g" type="3003" fontName=".AppleSystemUIFont">
+          <children xmi:type="notation:DecorationNode" xmi:id="_zI6vEoWNEe6U8f5HMnrv0g" type="5001"/>
+          <children xmi:type="notation:Shape" xmi:id="_zI7WIIWNEe6U8f5HMnrv0g" type="3020" fontName=".AppleSystemUIFont">
+            <element xmi:type="datamapper:InNode" href="PetStoreResponseMapping.datamapper#//@input/@treeNode.0/@node.3/@node.0/@inNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zI7WIYWNEe6U8f5HMnrv0g" x="-1" y="1"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_zI7WIoWNEe6U8f5HMnrv0g" type="3019" fontName=".AppleSystemUIFont">
+            <element xmi:type="datamapper:OutNode" href="PetStoreResponseMapping.datamapper#//@input/@treeNode.0/@node.3/@node.0/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zI7WI4WNEe6U8f5HMnrv0g"/>
+          </children>
+          <element xmi:type="datamapper:TreeNode" href="PetStoreResponseMapping.datamapper#//@input/@treeNode.0/@node.3/@node.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zI6vEYWNEe6U8f5HMnrv0g"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_zI6vE4WNEe6U8f5HMnrv0g" type="3020" fontName=".AppleSystemUIFont">
+          <element xmi:type="datamapper:InNode" href="PetStoreResponseMapping.datamapper#//@input/@treeNode.0/@node.3/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zI6vFIWNEe6U8f5HMnrv0g" x="-1" y="-11"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_zI6vFYWNEe6U8f5HMnrv0g" type="3019" fontName=".AppleSystemUIFont">
+          <element xmi:type="datamapper:OutNode" href="PetStoreResponseMapping.datamapper#//@input/@treeNode.0/@node.3/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zI6vFoWNEe6U8f5HMnrv0g"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="PetStoreResponseMapping.datamapper#//@input/@treeNode.0/@node.3"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zIB-SoWNEe6U8f5HMnrv0g"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_zIB-TIWNEe6U8f5HMnrv0g" type="3003" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zIB-ToWNEe6U8f5HMnrv0g" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_zI-ZcIWNEe6U8f5HMnrv0g" type="3003" fontName=".AppleSystemUIFont">
+          <children xmi:type="notation:DecorationNode" xmi:id="_zI-ZcoWNEe6U8f5HMnrv0g" type="5001"/>
+          <children xmi:type="notation:Shape" xmi:id="_zI_AgIWNEe6U8f5HMnrv0g" type="3020" fontName=".AppleSystemUIFont">
+            <element xmi:type="datamapper:InNode" href="PetStoreResponseMapping.datamapper#//@input/@treeNode.0/@node.4/@node.0/@inNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zI_AgYWNEe6U8f5HMnrv0g" x="-1" y="1"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_zI_AgoWNEe6U8f5HMnrv0g" type="3019" fontName=".AppleSystemUIFont">
+            <element xmi:type="datamapper:OutNode" href="PetStoreResponseMapping.datamapper#//@input/@treeNode.0/@node.4/@node.0/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zI_Ag4WNEe6U8f5HMnrv0g"/>
+          </children>
+          <element xmi:type="datamapper:TreeNode" href="PetStoreResponseMapping.datamapper#//@input/@treeNode.0/@node.4/@node.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zI-ZcYWNEe6U8f5HMnrv0g"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_zI-Zc4WNEe6U8f5HMnrv0g" type="3003" fontName=".AppleSystemUIFont">
+          <children xmi:type="notation:DecorationNode" xmi:id="_zI-ZdYWNEe6U8f5HMnrv0g" type="5001"/>
+          <children xmi:type="notation:Shape" xmi:id="_zJA1sIWNEe6U8f5HMnrv0g" type="3020" fontName=".AppleSystemUIFont">
+            <element xmi:type="datamapper:InNode" href="PetStoreResponseMapping.datamapper#//@input/@treeNode.0/@node.4/@node.1/@inNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zJA1sYWNEe6U8f5HMnrv0g" x="-1" y="1"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_zJA1soWNEe6U8f5HMnrv0g" type="3019" fontName=".AppleSystemUIFont">
+            <element xmi:type="datamapper:OutNode" href="PetStoreResponseMapping.datamapper#//@input/@treeNode.0/@node.4/@node.1/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zJA1s4WNEe6U8f5HMnrv0g"/>
+          </children>
+          <element xmi:type="datamapper:TreeNode" href="PetStoreResponseMapping.datamapper#//@input/@treeNode.0/@node.4/@node.1"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zI-ZdIWNEe6U8f5HMnrv0g"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_zI-ZdoWNEe6U8f5HMnrv0g" type="3020" fontName=".AppleSystemUIFont">
+          <element xmi:type="datamapper:InNode" href="PetStoreResponseMapping.datamapper#//@input/@treeNode.0/@node.4/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zI-Zd4WNEe6U8f5HMnrv0g" x="-1" y="-11"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_zI-ZeIWNEe6U8f5HMnrv0g" type="3019" fontName=".AppleSystemUIFont">
+          <element xmi:type="datamapper:OutNode" href="PetStoreResponseMapping.datamapper#//@input/@treeNode.0/@node.4/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zI-ZeYWNEe6U8f5HMnrv0g"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="PetStoreResponseMapping.datamapper#//@input/@treeNode.0/@node.4"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zIB-TYWNEe6U8f5HMnrv0g"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_zIB-T4WNEe6U8f5HMnrv0g" type="3003" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zIB-UYWNEe6U8f5HMnrv0g" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_zJBcwIWNEe6U8f5HMnrv0g" type="3020" fontName=".AppleSystemUIFont">
+          <element xmi:type="datamapper:InNode" href="PetStoreResponseMapping.datamapper#//@input/@treeNode.0/@node.5/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zJBcwYWNEe6U8f5HMnrv0g" x="-1" y="1"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_zJBcwoWNEe6U8f5HMnrv0g" type="3019" fontName=".AppleSystemUIFont">
+          <element xmi:type="datamapper:OutNode" href="PetStoreResponseMapping.datamapper#//@input/@treeNode.0/@node.5/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zJBcw4WNEe6U8f5HMnrv0g"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="PetStoreResponseMapping.datamapper#//@input/@treeNode.0/@node.5"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zIB-UIWNEe6U8f5HMnrv0g"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_zIB-UoWNEe6U8f5HMnrv0g" type="3020" fontName=".AppleSystemUIFont">
+        <element xmi:type="datamapper:InNode" href="PetStoreResponseMapping.datamapper#//@input/@treeNode.0/@inNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zIB-U4WNEe6U8f5HMnrv0g" x="-1" y="-11"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_zIB-VIWNEe6U8f5HMnrv0g" type="3019" fontName=".AppleSystemUIFont">
+        <element xmi:type="datamapper:OutNode" href="PetStoreResponseMapping.datamapper#//@input/@treeNode.0/@outNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zIB-VYWNEe6U8f5HMnrv0g"/>
+      </children>
+      <element xmi:type="datamapper:TreeNode" href="PetStoreResponseMapping.datamapper#//@input/@treeNode.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zHyGoYWNEe6U8f5HMnrv0g"/>
+    </children>
+    <element xmi:type="datamapper:Input" href="PetStoreResponseMapping.datamapper#//@input"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lSmfgYWNEe6U8f5HMnrv0g" width="250" height="160"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_lSnGkIWNEe6U8f5HMnrv0g" type="2003" fontName=".AppleSystemUIFont">
+    <children xmi:type="notation:Shape" xmi:id="_WrHC8IWTEe6U8f5HMnrv0g" type="3011" fontName=".AppleSystemUIFont">
+      <children xmi:type="notation:DecorationNode" xmi:id="_WrHC8oWTEe6U8f5HMnrv0g" type="5003"/>
+      <children xmi:type="notation:Shape" xmi:id="_WrI4IIWTEe6U8f5HMnrv0g" type="3003" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_WrI4IoWTEe6U8f5HMnrv0g" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_WrJfMIWTEe6U8f5HMnrv0g" type="3020" fontName=".AppleSystemUIFont">
+          <element xmi:type="datamapper:InNode" href="PetStoreResponseMapping.datamapper#//@output/@treeNode.0/@node.0/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WrJfMYWTEe6U8f5HMnrv0g" x="-10" y="4"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_WrJfMoWTEe6U8f5HMnrv0g" type="3019" fontName=".AppleSystemUIFont">
+          <element xmi:type="datamapper:OutNode" href="PetStoreResponseMapping.datamapper#//@output/@treeNode.0/@node.0/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WrJfM4WTEe6U8f5HMnrv0g"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="PetStoreResponseMapping.datamapper#//@output/@treeNode.0/@node.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WrI4IYWTEe6U8f5HMnrv0g"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_WrI4I4WTEe6U8f5HMnrv0g" type="3003" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_WrI4JYWTEe6U8f5HMnrv0g" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_WrKtUIWTEe6U8f5HMnrv0g" type="3020" fontName=".AppleSystemUIFont">
+          <element xmi:type="datamapper:InNode" href="PetStoreResponseMapping.datamapper#//@output/@treeNode.0/@node.1/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WrKtUYWTEe6U8f5HMnrv0g" x="-10" y="4"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_WrKtUoWTEe6U8f5HMnrv0g" type="3019" fontName=".AppleSystemUIFont">
+          <element xmi:type="datamapper:OutNode" href="PetStoreResponseMapping.datamapper#//@output/@treeNode.0/@node.1/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WrKtU4WTEe6U8f5HMnrv0g"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="PetStoreResponseMapping.datamapper#//@output/@treeNode.0/@node.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WrI4JIWTEe6U8f5HMnrv0g"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_WrI4JoWTEe6U8f5HMnrv0g" type="3003" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_WrI4KIWTEe6U8f5HMnrv0g" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_WrLUYIWTEe6U8f5HMnrv0g" type="3020" fontName=".AppleSystemUIFont">
+          <element xmi:type="datamapper:InNode" href="PetStoreResponseMapping.datamapper#//@output/@treeNode.0/@node.2/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WrLUYYWTEe6U8f5HMnrv0g" x="-10" y="4"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_WrLUYoWTEe6U8f5HMnrv0g" type="3019" fontName=".AppleSystemUIFont">
+          <element xmi:type="datamapper:OutNode" href="PetStoreResponseMapping.datamapper#//@output/@treeNode.0/@node.2/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WrLUY4WTEe6U8f5HMnrv0g"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="PetStoreResponseMapping.datamapper#//@output/@treeNode.0/@node.2"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WrI4J4WTEe6U8f5HMnrv0g"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_WrI4KYWTEe6U8f5HMnrv0g" type="3020" fontName=".AppleSystemUIFont">
+        <element xmi:type="datamapper:InNode" href="PetStoreResponseMapping.datamapper#//@output/@treeNode.0/@inNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WrI4KoWTEe6U8f5HMnrv0g" x="-1" y="-11"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_WrI4K4WTEe6U8f5HMnrv0g" type="3019" fontName=".AppleSystemUIFont">
+        <element xmi:type="datamapper:OutNode" href="PetStoreResponseMapping.datamapper#//@output/@treeNode.0/@outNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WrI4LIWTEe6U8f5HMnrv0g"/>
+      </children>
+      <element xmi:type="datamapper:TreeNode" href="PetStoreResponseMapping.datamapper#//@output/@treeNode.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WrHC8YWTEe6U8f5HMnrv0g"/>
+    </children>
+    <element xmi:type="datamapper:Output" href="PetStoreResponseMapping.datamapper#//@output"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lSnGkYWNEe6U8f5HMnrv0g" x="310" width="250" height="160"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_PGKSgYWNEe6U8f5HMnrv0g"/>
+  <element xmi:type="datamapper:DataMapperRoot" href="PetStoreResponseMapping.datamapper#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_XSLC8IWTEe6U8f5HMnrv0g" type="4001" source="_zIGPsoWNEe6U8f5HMnrv0g" target="_WrJfMIWTEe6U8f5HMnrv0g">
+    <styles xmi:type="notation:FontStyle" xmi:id="_XSLC8YWTEe6U8f5HMnrv0g" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="datamapper:DataMapperLink" href="PetStoreResponseMapping.datamapper#//@input/@treeNode.0/@node.0/@outNode/@outgoingLink.2"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XSLC8oWTEe6U8f5HMnrv0g" points="[-2, 0, -252, -12]$[248, 12, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XSPUYIWTEe6U8f5HMnrv0g" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XSPUYYWTEe6U8f5HMnrv0g" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_YLBWgIWTEe6U8f5HMnrv0g" type="4001" source="_zI5g8oWNEe6U8f5HMnrv0g" target="_WrKtUIWTEe6U8f5HMnrv0g">
+    <styles xmi:type="notation:FontStyle" xmi:id="_YLBWgYWTEe6U8f5HMnrv0g" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="datamapper:DataMapperLink" href="PetStoreResponseMapping.datamapper#//@input/@treeNode.0/@node.2/@outNode/@outgoingLink.2"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_YLBWgoWTEe6U8f5HMnrv0g" points="[-2, 0, -252, 37]$[248, -37, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YLDLsIWTEe6U8f5HMnrv0g" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YLDLsYWTEe6U8f5HMnrv0g" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Y4ECsIWTEe6U8f5HMnrv0g" type="4001" source="_zJBcwoWNEe6U8f5HMnrv0g" target="_WrLUYIWTEe6U8f5HMnrv0g">
+    <styles xmi:type="notation:FontStyle" xmi:id="_Y4ECsYWTEe6U8f5HMnrv0g" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="datamapper:DataMapperLink" href="PetStoreResponseMapping.datamapper#//@input/@treeNode.0/@node.5/@outNode/@outgoingLink.2"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Y4ECsoWTEe6U8f5HMnrv0g" points="[-2, 0, -252, 119]$[248, -119, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Y4F34IWTEe6U8f5HMnrv0g" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Y4F34YWTEe6U8f5HMnrv0g" id="CENTER"/>
+  </edges>
+</notation:Diagram>

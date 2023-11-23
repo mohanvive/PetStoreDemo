@@ -1,0 +1,45 @@
+<data name="PetStoreDS" serviceStatus="active" transports="http https local">
+   <config enableOData="false" id="Datasource">
+      <property name="driverClassName">com.mysql.jdbc.Driver</property>
+      <property name="url">jdbc:mysql://localhost:3306/misampledb</property>
+      <property name="username">root</property>
+      <property name="password">12345678</property>
+   </config>
+   <query id="GetPetDetails" useConfig="Datasource">
+      <sql>select PetNumber, Name, Category, Status from Pets where PetNumber=:PetNumber</sql>
+      <result outputType="json">{
+   "Pets":{
+      "Pet":[
+         {
+            "PetNumber":"$PetNumber",
+            "Name":"$Name",
+            "Category":"$Category",
+            "Status":"$Status",
+         }
+      ]
+   }
+}</result>
+      <param name="PetNumber" sqlType="STRING"/>
+   </query>
+   <query id="AddPetDetails" useConfig="Datasource">
+      <sql>insert into Pets (PetNumber, Name, Category, Status) values(:PetNumber,:Name,:Category,:Status)</sql>
+      <param name="PetNumber" sqlType="STRING"/>
+      <param name="Name" sqlType="STRING"/>
+      <param name="Category" sqlType="STRING"/>
+      <param name="Status" sqlType="STRING"/>
+   </query>
+   <resource method="GET" path="Pet/{PetNumber}">
+      <call-query href="GetPetDetails">
+         <with-param name="PetNumber" query-param="PetNumber"/>
+      </call-query>
+   </resource>
+   <resource method="POST" path="Pet">
+      <call-query href="AddPetDetails">
+         <with-param name="PetNumber" query-param="PetNumber"/>
+         <with-param name="Name" query-param="Name"/>
+         <with-param name="Category" query-param="Category"/>
+         <with-param name="Status" query-param="Status"/>
+      </call-query>
+   </resource>
+</data>
+

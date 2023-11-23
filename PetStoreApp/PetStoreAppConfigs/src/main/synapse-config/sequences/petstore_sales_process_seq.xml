@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="petstore_sales_process_seq" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log level="full"/>
+    <log level="custom">
+        <property expression="get-property('partitionNo')" name="partitionNo" xmlns:ns="http://org.apache.synapse/xsd"/>
+    </log>
+    <log level="custom">
+        <property expression="get-property('messageValue')" name="messageValue" xmlns:ns="http://org.apache.synapse/xsd"/>
+    </log>
+    <log level="custom">
+        <property expression="get-property('offset')" name="offset" xmlns:ns="http://org.apache.synapse/xsd"/>
+    </log>
+    <property name="OUT_ONLY" scope="default" type="STRING" value="true"/>
+    <iterate attachPath="json-eval($.sales)" expression="json-eval($.sales)" id="iterate-over-sales" preservePayload="true">
+        <target>
+            <sequence>
+                <payloadFactory media-type="json" template-type="freemarker">
+                    <format><![CDATA[
+        {
+        "type" : "Sales",
+        "product" : "${payload.sales.name}",
+        "qty" : ${payload.sales.quantity},
+        "price" : ${payload.sales.rate}
+        }]]></format>
+                    <args/>
+                </payloadFactory>
+                <call>
+                    <endpoint>
+                        <address uri="mqtt:/Test?mqtt.server.host.name=localhost&amp;mqtt.server.port=1883&amp;mqtt.client.id=client1&amp;mqtt.topic.name=ei.test2&amp;mqtt.subscription.qos=2">
+                            <suspendOnFailure>
+                                <initialDuration>-1</initialDuration>
+                                <progressionFactor>1</progressionFactor>
+                            </suspendOnFailure>
+                            <markForSuspension>
+                                <retriesBeforeSuspension>0</retriesBeforeSuspension>
+                            </markForSuspension>
+                        </address>
+                    </endpoint>
+                </call>
+            </sequence>
+        </target>
+    </iterate>
+</sequence>

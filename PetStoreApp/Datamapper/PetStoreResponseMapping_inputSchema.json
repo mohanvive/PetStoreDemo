@@ -1,0 +1,71 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "inputType" : "JSON",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "root",
+  "type" : "array",
+  "items" : [ {
+    "properties" : {
+      "id" : {
+        "id" : "http://wso2jsonschema.org/0/id",
+        "type" : "number"
+      },
+      "category" : {
+        "id" : "http://wso2jsonschema.org/0/category",
+        "type" : "object",
+        "properties" : {
+          "id" : {
+            "id" : "http://wso2jsonschema.org/0/category/id",
+            "type" : "number"
+          },
+          "name" : {
+            "id" : "http://wso2jsonschema.org/0/category/name",
+            "type" : "string"
+          }
+        }
+      },
+      "name" : {
+        "id" : "http://wso2jsonschema.org/0/name",
+        "type" : "string"
+      },
+      "photoUrls" : {
+        "id" : "http://wso2jsonschema.org/0/photoUrls",
+        "type" : "array",
+        "items" : [ {
+          "id" : "http://wso2jsonschema.org/0/photoUrls/0",
+          "type" : "string",
+          "properties" : {
+            "__" : {
+              "id" : "http://wso2jsonschema.org/0/photoUrls/0",
+              "type" : "string"
+            }
+          }
+        } ]
+      },
+      "tags" : {
+        "id" : "http://wso2jsonschema.org/0/tags",
+        "type" : "array",
+        "items" : [ {
+          "id" : "http://wso2jsonschema.org/0/tags/0",
+          "type" : "object",
+          "properties" : {
+            "id" : {
+              "id" : "http://wso2jsonschema.org/0/tags/0/id",
+              "type" : "number"
+            },
+            "name" : {
+              "id" : "http://wso2jsonschema.org/0/tags/0/name",
+              "type" : "string"
+            }
+          }
+        } ]
+      },
+      "status" : {
+        "id" : "http://wso2jsonschema.org/0/status",
+        "type" : "string"
+      }
+    },
+    "id" : "http://wso2jsonschema.org/0",
+    "type" : "object"
+  } ]
+}
